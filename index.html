@@ -1,0 +1,45 @@
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="Content-Script-Type" content="text/javascript" /> 
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" charset="UTF-8" /> 
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script> 
+<script type="text/javascript" src="counter.js"></script> 
+<title>ソースコードカウンター in HTML5</title> 
+</head> 
+<body onload="onLoad()"> 
+<div id="main"> 
+	<div id="header">ソースコードカウンター in HTML5</div> 
+	<div id="discription"> 
+	<p>プログラムの行数をカウントしてくれます。HTML5のFileAPIを使って実装するデモです。</p>
+	</div>
+	<div>
+		<input id="file_input" type="file" multiple webkitdirectory directory value="フォルダを選択" style="visible: hidden;" />
+		<input id="count_button" type="button" value="カウント開始" />
+	</div>
+	<div id="info_panel" class="info_panel_on_normal">
+	</div>
+	<div id="drag_panel" class="drag_panel_on_normal">
+	<p>ここにドラッグ＆ドロップすることもできます。（フォルダは不可能）</p>
+	</div> 
+<script type="text/javascript"><!--
+google_ad_client = "pub-3121031347596821";
+/* Webサービス横 */
+google_ad_slot = "9025460473";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script> 
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js"> 
+</script> 
+	<div id="footer"> 
+	(C)2012 <A href="http://ledyba.org/">ψ（プサイ）の興味関心空間</a> 
+	</div> 
+</div> 
+</body> 
+</html> 
